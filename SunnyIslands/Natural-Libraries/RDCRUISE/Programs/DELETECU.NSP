@@ -9,7 +9,7 @@ LOCAL USING NCDATA-L
 LOCAL 
 1 DELNAME (N8.0)
 END-DEFINE
-
+/* Comment the error processing feature
 ON ERROR
   DISPLAY 'Error:' *ERROR *ERROR-NR 
   ESCAPE ROUTINE
